@@ -1,0 +1,5 @@
+require(knitr)
+require(markdown)
+setwd("C:/Users/Soorya/Desktop/Coursera/gacdproject")
+knit("run_analysis.Rmd", encoding="ISO8859-1")
+markdownToHTML("run_analysis.md", "run_analysis.html")
